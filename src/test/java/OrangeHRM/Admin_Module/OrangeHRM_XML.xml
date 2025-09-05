@@ -1,0 +1,13 @@
+<suite name="Login Page Test Suite">
+	<test name="Login Tests">
+		<classes>
+			<class name="OrangeHRM.Admin_Module.OrangeHRM_Login_Page_Test" />
+		</classes>
+	</test>
+
+	<test name="User Management Tests">
+		<classes>
+			<class name="OrangeHRM.Admin_Module.OrangeHRM_User_Management_Test" />
+		</classes>
+	</test>
+</suite>

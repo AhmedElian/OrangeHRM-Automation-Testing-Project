@@ -1,0 +1,14 @@
+Username,Password,Expected Result
+Admin,admin123,TRUE
+Charles,admin123,FALSE
+NOTadmin,admin400$50,FALSE
+Admin@OHRM,admin123,FALSE
+admin,1234,FALSE
+,,FALSE
+,1234,FALSE
+admin,,FALSE
+   admin   ,   admin123  ,FALSE
+admin12310admin12310admin12310admin12310admin12310admin12310admin12310admin12310admin12310admin123101,admin12310admin12310admin12310admin12310admin12310admin12310admin12310admin12310admin12310admin123101,FALSE
+ ' OR '1'='1,admin123,FALSE
+admin<script>alert(1)</script>,admin123,FALSE
+Admin,"""<img src=x onerror=alert('xss')>""",FALSE

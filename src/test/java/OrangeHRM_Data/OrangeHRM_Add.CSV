@@ -1,0 +1,27 @@
+User Role,Employee Name,Status,Username,Password,Confirm Password,Expected Result
+-- Select --,Ahmed Elian,Disabled,IAMnewUSERforTEST,Password123,Password123,FALSE
+Admin,Ahmed Elian,Enabled,IAMnewUSERforTEST1,Password123,Password123,TRUE
+ESS,Ahmed Elian,Enabled,IAMnewUSERforTEST2,Password123,Password123,TRUE
+Admin,,Enabled,IAMnewUSERforTEST3,Password123,Password123,FALSE
+Admin,1M,Enabled,IAMnewUSERforTEST4,Password123,Password123,FALSE
+Admin,Ahmed Elian,Enabled,IAMnewUSERforTEST5,Password123,Password123,TRUE
+Admin,Ahmed Elian,-- Select --,IAMnewUSERforTEST6,Password123,Password123,FALSE
+ESS,Ahmed Elian,Disabled,IAMnewUSERforTEST7,Password123,Password123,TRUE
+Admin,Ahmed Elian,Enabled,IAMnewUSERforTEST8,Password123,Password123,TRUE
+Admin,Ahmed Elian,Enabled,NewAdminIsHere,Password123,Password123,TRUE
+Admin,Ahmed Elian,Enabled,A,Password123,Password123,FALSE
+Admin,Ahmed Elian,Enabled,IAMnewUSERforTEST12IAMnewUSERforTEST12IAMnewUSERforTEST12IAMnewUSERforTEST12IAMnewUSERforTEST12IAMnewUSERforTEST12,Password123,Password123,FALSE
+Admin,Ahmed Elian,Enabled,!@#$%^&*()+_=,Password123,Password123,TRUE
+Admin,Ahmed Elian,Enabled,1234567,Password123,Password123,TRUE
+Admin,Ahmed Elian,Enabled,        iammnewuser,Password123,Password123,TRUE
+Admin,Ahmed Elian,Enabled,IAMnewUSERforTEST13,admin123,admin123,TRUE
+Admin,Ahmed Elian,Enabled,IAMnewUSERforTEST14,,,FALSE
+Admin,Ahmed Elian,Enabled,IAMnewUSERforTEST15,1234,1234,FALSE
+Admin,Ahmed Elian,Enabled,IAMnewUSERforTEST16,IAMnewUSERforTEST12IAMnewUSERforTEST12IAMnewUSERforTEST12IAMnewUSERforTEST12IAMnewUSERforTEST12IAMnewUSERforTEST12IAMnewUSERforTEST12IAMnewUSERforTEST12IAMnewUSERforTEST12IAMnewUSERforTEST12IAMnewUSERforTEST12IAMnewUSERforTEST12,IAMnewUSERforTEST12IAMnewUSERforTEST12IAMnewUSERforTEST12IAMnewUSERforTEST12IAMnewUSERforTEST12IAMnewUSERforTEST12IAMnewUSERforTEST12IAMnewUSERforTEST12IAMnewUSERforTEST12IAMnewUSERforTEST12IAMnewUSERforTEST12IAMnewUSERforTEST12,FALSE
+Admin,Ahmed Elian,Enabled,IAMnewUSERforTEST17,adminishere,adminishere,FALSE
+Admin,Ahmed Elian,Enabled,IAMnewUSERforTEST18,1234567890,1234567890,FALSE
+Admin,Ahmed Elian,Enabled,IAMnewUSERforTEST19,       ,       ,FALSE
+Admin,Ahmed Elian,Enabled,IAMnewUSERforTEST20,admin123,,FALSE
+Admin,Ahmed Elian,Enabled,IAMnewUSERforTEST21,admin123,1234567890A,FALSE
+Admin,Ahmed Elian,Enabled,IAMnewUSERforTEST22,admin123,admin123,TRUE
+Admin,Ahmed Elian,Enabled,IAMnewUSERforTEST1,Password123,Password123,FALSE

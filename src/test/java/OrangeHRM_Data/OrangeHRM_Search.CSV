@@ -1,0 +1,13 @@
+Username,User Role,Employee Name,Status,Expected Result
+admin,--Select--,,--Select--,TRUE
+X7000$,--Select--,,--Select--,TRUE
+      ,--Select--,,--Select--,TRUE
+,Admin,,--Select--,TRUE
+,ESS,,--Select--,TRUE
+admin,Admin,,Enabled,TRUE
+,--Select--,,Enabled,TRUE
+,--Select--,,Disabled,TRUE
+,Admin,,Enabled,TRUE
+ww.@!#,--Select--,X!@#,Disabled,FALSE
+,--Select--,,--Select--,TRUE
+admin,Admin,Ahmed Elian,Enabled,TRUE
