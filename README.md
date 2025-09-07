@@ -34,29 +34,92 @@
 
 📂 Project Structure
 
-📁 OrangeHRM_Automation_Testing
+📂 OrangeHRM_Automation_Testing
 
-├── .gitignore # Ignored files/folders
+├── 📄 README.md
 
-├── 📄 LICENSE # License file
+├── 📄 pom.xml
 
-├── 📄 pom.xml # Maven Project Object Model
+├── 📄 testng.xml
 
-├── 📄 testng.xml # TestNG Suite Configuration
+├── 📁 src
 
-├── 📄 README.md # Project documentation
+│   ├── 📁 main
 
-├── 📁 src/test/java # Test source code
+│   │   └── 📁 java
 
-│ ├── OrangeHRM/Admin_Module # Admin-related test cases
+│   │       └── 📁 OrangeHRM
 
-│ ├── OrangeHRM/User_Module # User-related test cases
+│   │           └── 📁 Admin_Module
 
-│ ├── OrangeHRM/Base # Base test setup & utilities
+│   │               ├── AdminPage.java
 
-│ └── OrangeHRM/Utils # Helper methods & reporting
+│   │               ├── EducationPage.java
 
-└── 📁 reports # TestNG & Extent reports
+│   │               ├── LanguagesPage.java
+
+│   │               ├── OrangeHRM_Login_Page.java
+
+│   │               ├── OrangeHRM_User_Management.java
+
+│   │               └── SkillsPage.java
+
+│   └── 📁 test
+
+│       └── 📁 java
+
+│           └── 📁 OrangeHRM
+
+│               └── 📁 Admin_Module
+
+│                   ├── EducationTest.java
+
+│                   ├── LanguagesTest.java
+
+│                   ├── OrangeHRM_Login_Page_Test.java
+
+│                   ├── OrangeHRM_Read_CSV.java
+
+│                   ├── OrangeHRM_Test_Base.java
+
+│                   ├── OrangeHRM_User_Management_Test.java
+
+│                   ├── OrangeHRM_XML.xml
+
+│                   └── SkillsTest.java
+
+├── 📁 OrangeHRM_Data
+
+│   ├── OrangeHRM_Add.CSV
+
+│   ├── OrangeHRM_Edit.CSV
+
+│   ├── OrangeHRM_Login.CSV
+
+│   ├── OrangeHRM_Reser_Password.CSV
+
+│   └── OrangeHRM_Search.CSV
+
+├── 📁 reports
+
+│   └── OrangeHRM_TestNG_reports.zip
+
+├── 📄 OrangeHRM - Automation Testing - Bug Report.pdf
+
+├── 📄 OrangeHRM - Automation Testing - Requirements Traceability Matrix (RTM).xlsx
+
+├── 📄 OrangeHRM - Automation Testing - SRS.pdf
+
+├── 📄 OrangeHRM - Automation Testing - Test Cases.xlsx
+
+├── 📄 OrangeHRM - Automation Testing - Test Plan.pdf
+
+├── 📄 OrangeHRM - Automation Testing - Test Summary Report.xlsx
+
+├── 📄 OrangeHRM_Automation_Presentation.pptx
+
+└── 📄 OrangeHRM_Qualifications_Proj.zip
+
 
 ----------
 
