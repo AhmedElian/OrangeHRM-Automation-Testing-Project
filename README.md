@@ -1,6 +1,6 @@
 🧪 OrangeHRM – Automation Testing
 ---------
-<img width="446" height="113" alt="orangehrm logo" src="https://github.com/user-attachments/assets/4a9b9a78-0192-48e4-a063-ae0312933c59" />
+<img width="447" height="113" alt="orangehrm logo" src="https://github.com/user-attachments/assets/7cdb646d-c6fd-4725-8b19-cd86642d87a3" />
 
 ----------
 
